@@ -1,0 +1,2 @@
+Elementos ordenados: 1 4 8 9 10 
+Suma total: 32
