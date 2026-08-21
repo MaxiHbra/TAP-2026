@@ -1,0 +1,20 @@
+Camila vende cajas con forma de paralelepípedos rectangulares (la forma habitual de una caja).
+Si la altura, el ancho y la profundidad de una caja son a, b y c respectivamente, Camila la vende a un precio de:
+Precio de venta = a² + b² + c²
+Las cajas son huecas y están formadas solo por la superficie. El material cuesta medio peso por unidad cuadrada, por lo que fabricar una caja de dimensiones a, b, c le cuesta:  
+Costo de fabicacion= ab + bc + ca
+Camila tiene una lista de N medidas permitidas. Las tres dimensiones (a, b, c) de la caja deben pertenecer a esta lista, y se permite repetir un mismo valor para más de una dimensión (por ejemplo, hacer a = b o a = b = c).  
+Se pide calcular la máxima ganancia neta que puede obtener por la venta de una caja, donde:
+Ganancia = Precio de venta - Costo de fabricacion = a²+b²+c²-(ab+bc+ca)
+ 
+Entrada: Una primera linea con un entero N entre 1 y 5000, son la cantidad de medidas permitidas
+Una segunda linea con N enteros positivos distintos V1,V2,..,VN entre 1 y 10⁶ que son los valores posibles para las dimensiones
+Salida: Una unica linea con un entero unico que simboliza la ganancia de dinero que camila puede ganar.
+
+Ejemplos: Entrada: 1
+		   1000000
+	  Salida: 0
+	  Explicacion: La unica opcion es a=b=c y esto da 0 de ganancia
+Ejemplo 2: Entrada: 5
+		    1734 69384 16 22338 320
+	   Salidas: 4811919424 ganancia maxima
