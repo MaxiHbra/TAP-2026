@@ -1,0 +1,2 @@
+Un viajante de comercio debe visitar un conjunto de N ciudades exactamente una vez cada una y, al finalizar el recorrido, debe regresar a la ciudad desde donde partió (completando un ciclo cerrado o ciclo hamiltoniano).
+Objetivo: Encontrar el recorrido que visite todas las ciudades y regrese al punto de origen con la distancia total (o costo total) mínima posible.
